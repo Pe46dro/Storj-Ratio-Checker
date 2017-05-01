@@ -2,6 +2,8 @@
 
 > Simple bash script to check Storjshare timed out/sending ratio and send Telegram notification
 
+### Build [![Build Status](https://travis-ci.org/Pe46dro/Storj-Ratio-Checker.svg?branch=master)](https://travis-ci.org/Pe46dro/Storj-Ratio-Checker)
+
 ## Table of Contents
 
 - [Maintainer](#maintainer)
