@@ -26,5 +26,5 @@ do
 	text="Storj ID: ${file/.log/''} %0A"
 	text="$text""Ratio: $ratio"
 
-	curl -s -X POST https://api.telegram.org/bot"$tg_bot_token"/sendMessage -d text="$text" -d chat_id="$tg_chat$
+	curl -s -X POST https://api.telegram.org/bot"$tg_bot_token"/sendMessage -d text="$text" -d chat_id="$tg_chat_id" -d parse_mode="Markdown"
 done
